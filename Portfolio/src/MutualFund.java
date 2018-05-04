@@ -3,7 +3,7 @@
  */
 public class MutualFund extends NonCashAsset {
 
-    double numOfShares;
+    private double numOfShares;
     /**
      * constructs MutualFund
      * @param symbol - stock symbol

@@ -5,9 +5,9 @@
  * symbol
  */
 public abstract class NonCashAsset implements ProfitableAsset {
-    double purchasePrice;
-    double pricePerShare;
-    String symbol;
+    private double purchasePrice;
+    private double pricePerShare;
+    private String symbol;
 
     /**
      * constructs Stock
